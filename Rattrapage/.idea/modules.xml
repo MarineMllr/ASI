@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Atelier 3/Authentification/AuthenticationWebService.iml" filepath="$PROJECT_DIR$/../Atelier 3/Authentification/AuthenticationWebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Atelier 3/Inventaire/Inventaire.iml" filepath="$PROJECT_DIR$/../Atelier 3/Inventaire/Inventaire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Atelier 3/CardGestion/SPWebApp.iml" filepath="$PROJECT_DIR$/../Atelier 3/CardGestion/SPWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Atelier 3/User/UserMicroService.iml" filepath="$PROJECT_DIR$/../Atelier 3/User/UserMicroService.iml" />
+    </modules>
+  </component>
+</project>
