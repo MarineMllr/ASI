@@ -1,7 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d470cf0-04ce-4f62-b302-f8d2b78f1c64" name="Default Changelist" comment="" />
+    <list default="true" id="0d470cf0-04ce-4f62-b302-f8d2b78f1c64" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atelier 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Atelier 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_derby_derby_10_14_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_json_json_20180130.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/cardHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/createRoom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/js/cardHome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/js/createRoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/js/playRoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/js/roomList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/js/selectCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/js/winGame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/.versions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/accordion.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/ad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/ad.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/api.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/breadcrumb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/breadcrumb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/button.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/card.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/checkbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/checkbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/colorize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/colorize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/comment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/comment.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/container.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/dimmer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/dimmer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/dimmer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/dimmer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/divider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/divider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/dropdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/dropdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/embed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/embed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/embed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/embed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/feed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/feed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/flag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/flag.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/form.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/form.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/header.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/icon.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/image.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/input.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/item.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/label.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/list.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/loader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/loader.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/menu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/message.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/message.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/modal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/modal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/nag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/nag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/nag.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/nag.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/popup.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/progress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/progress.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/progress.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/rail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/rail.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/rating.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/rating.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/rating.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/reset.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/reveal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/reveal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/search.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/search.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/segment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/segment.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/shape.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/shape.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/shape.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/shape.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/sidebar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/sidebar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/site.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/site.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/state.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/statistic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/statistic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/step.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/step.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/sticky.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/sticky.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/sticky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/tab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/tab.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/tab.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/transition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/transition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/transition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/video.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/video.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/visibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/visibility.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/visit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/components/visit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/semantic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/semantic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/semantic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/semantic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/Semantic-UI-CSS-master/themes/default/assets/images/flags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/lib/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/playRoom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/roomList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/selectCardForPlay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/waitPlayer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rattrapage/src/main/resources/winGame.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,25 +340,37 @@
       <option name="presentableId" value="Default" />
       <updated>1596045769128</updated>
       <workItem from="1596045769347" duration="307000" />
+      <workItem from="1597689994201" duration="976000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1596046079603">
+    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1597690971963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596046079603" />
+    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597690971963" />
     <state x="625" y="224" key="NewModule_or_Project.wizard" timestamp="1596046081635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="224" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596046081635" />
-    <state x="342" y="203" key="new project wizard" timestamp="1596046063616">
+    <state x="342" y="203" key="new project wizard" timestamp="1597690994606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="203" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596046063616" />
+    <state x="342" y="203" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597690994606" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1596045815752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
