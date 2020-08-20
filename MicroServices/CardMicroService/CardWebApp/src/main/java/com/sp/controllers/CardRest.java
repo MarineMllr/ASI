@@ -16,6 +16,12 @@ public class CardRest {
 	@Autowired
 	CardService cardService;
 
+	//Ceci est un test
+	@RequestMapping(value = "/echoStudentName/{name}")
+	public String echoStudentName(@PathVariable(name = "name") String name)
+	{
+		return "hello  <strong style=\"color: red;\">" + name + " </strong>";
+	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "/cards")
 	public ResponseEntity<List<Card>> getAllCards() {
@@ -25,8 +31,6 @@ public class CardRest {
 		}
 		return new ResponseEntity<>(cards, HttpStatus.OK);
 	}
-
-	
 
 	@RequestMapping(method= RequestMethod.POST,value="/card/add")
 	public void addCard(@RequestBody Card card) {

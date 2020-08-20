@@ -1,0 +1,31 @@
+server:
+  port: 8085
+
+zuul:
+  routes:
+    card-service-route:
+      path: /card-service/**
+      serviceId: card-service
+    sale-service-route:
+      path: /sale-service/**
+      serviceId: sale-service
+    user-service-route:
+      path: /user-service/**
+      serviceId: user-service
+
+ribbon:
+  eureka:
+    enabled: false
+
+#Ribbon utile pour du load balancer
+card-service:
+  ribbon:
+    listOfServers: localhost:8081
+
+sale-service:
+  ribbon:
+    listOfServers: localhost:8082
+
+user-service:
+  ribbon:
+    listOfServers: localhost:8083
