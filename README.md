@@ -10,7 +10,7 @@
 Le répertoire Atelier3 correspond à l'ancien projet atelier 3 du module ASI.
 Le répertoire Microservices correspond au projet modidié = ce qui est rendu pour le rattrapage
 
-# Qui à fait quoi
+# Qui a fait quoi
 - Marine MOLLIER : Reprise du projet de base avec création de l'architecture microservices + mise en place du reverse proxy Zuul pour accéder aux ressources statiques et aux microservices
 
 # Les éléments réalisés (par thème)
