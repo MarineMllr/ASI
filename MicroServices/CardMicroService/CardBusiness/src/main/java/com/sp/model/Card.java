@@ -56,7 +56,6 @@ public class Card {
                 ", attack=" + attack +
                 ", imgUrl='" + imgUrl + '\'' +
                 ", price=" + price +
-//				", children=" + children +
                 '}';
     }
 

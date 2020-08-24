@@ -6,7 +6,7 @@ $(document).ready(function(){
         var data = $("#register").serialize();
         console.log(data);
         $.ajax({
-            url : '/userApplication/addData',
+            url : 'localhost:8085/user-service/user/add',
             type : 'POST',
             data : data,
             dataType : 'text',
@@ -33,15 +33,6 @@ $(document).ready(function(){
         })
 
     })
-    /*
-    $.ajax({
-        url : '/addData',
-        type : 'POST',
-        data : data,
-        dataType : 'text',
-
-    })
-     */
 
 });
 

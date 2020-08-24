@@ -33,5 +33,8 @@ public class CardService {
 		return result;
 	}
 
+	public Card getCardById(int id) {
+		return cardRepository.findById(id);
+	}
 	
 }

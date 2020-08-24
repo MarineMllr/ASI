@@ -3,7 +3,6 @@ package com.sp.controllers;
 import com.sp.model.Card;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -40,6 +39,12 @@ public class CardRest {
 	@RequestMapping(method= RequestMethod.POST,value="/card/delete")
 	public void DeleteCard(@RequestBody Card card) {
 		cardService.DeleteCard(card);
+	}
+
+	@RequestMapping(method= RequestMethod.GET, value="/card/{id}")
+	public ResponseEntity<Object> getCard(@PathVariable int id) {
+		Card card = cardService.getCardById(id);
+		return new ResponseEntity<>(card, HttpStatus.OK);
 	}
 
 	
