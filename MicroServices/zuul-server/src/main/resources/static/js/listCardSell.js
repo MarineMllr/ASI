@@ -1,16 +1,23 @@
 //TODO : changer les url ajax : maintenant elle suivent la logique suivante => localhost:portMS/nomMS/nomduRequestMapping
 var user;
 $(document ).ready(function(){
-    var value = getConnectionInfos();
-    user = usr_infos;
+//     var value = getConnectionInfos();
+//     user = usr_infos;
+    user = {
+        "id":1,
+        "surname": 'user',
+        "name": "user",
+        "money":200
+    }
 
 
-    if (user != null && cookieObj != null) {
+
+    // if (user != null && cookieObj != null) {
         console.log(user["surname"]);
         $.ajax({
-            url : 'localhost:8082/sale-service/inventory/cards/'+user["id"],
+            url : 'sale-service/inventory/cards/',
             type : 'GET',
-            data : {surname: user["surname"], token : cookieObj["token"]},
+            data : {surname: user["surname"]},
             success : function(list_to_display){
                 console.log(list_to_display);
                 $.each(list_to_display, function(key, inventCard) {
@@ -45,7 +52,7 @@ $(document ).ready(function(){
             }
 
         });
-    }
+    // }
 });
 
 function fillCurrentCard(imgUrlFamily,familyName,imgUrl,name,description,hp,energy,attack,defence,price){

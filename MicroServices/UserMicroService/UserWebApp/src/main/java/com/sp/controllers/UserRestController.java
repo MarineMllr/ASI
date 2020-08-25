@@ -46,7 +46,7 @@ public class UserRestController {
             return new ResponseEntity(HttpStatus.CONFLICT);
         }
         userService.addUser(user);
-        return new ResponseEntity<String>(HttpStatus.CREATED);
+        return new ResponseEntity<String>(HttpStatus.OK);
     }
 
     @RequestMapping(value = "/user/login", method = RequestMethod.POST)

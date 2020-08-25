@@ -17,7 +17,7 @@ function getConnectionInfos() {
 
     if(cookieObj!=null){
         console.log(cookieObj["token"]);
-        $.ajax({url : "/userApplication/getUserInfoWithToken",
+        $.ajax({url : "/user-service/getUserInfoWithToken",
             data : {surname: cookieObj["surname"],token: cookieObj["token"]},
             method : 'POST',
             async: false}).done(function(data,status){
