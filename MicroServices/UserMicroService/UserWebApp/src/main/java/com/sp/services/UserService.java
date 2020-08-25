@@ -1,5 +1,6 @@
 package com.sp.services;
 
+import com.sp.dto.UserDTO;
 import com.sp.model.User;
 import com.sp.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,8 @@ public class UserService {
     @Autowired
     UserRepository userRepository;
 
-    public void addUser(User u) {
+    public void addUser(UserDTO userDTO) {
+        User u = new User(userDTO.getName(), userDTO.getSurname(), userDTO.getPassword());
         userRepository.save(u);
     }
 

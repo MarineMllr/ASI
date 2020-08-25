@@ -1,6 +1,7 @@
 package com.sp.controllers;
 
 import com.sp.dto.Login;
+import com.sp.dto.UserDTO;
 import com.sp.model.User;
 import com.sp.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,10 +39,10 @@ public class UserRestController {
         return new ResponseEntity<>(user, HttpStatus.OK);
     }
 
-    // Créer un utilisateur
     @RequestMapping(value = "/user/add", method = RequestMethod.POST)
-    public ResponseEntity<?> createUser(@RequestBody User user) {
-        if (userService.isUserExist(user)) {
+    public ResponseEntity<?> createUser(@RequestParam (name = "name") String name, @RequestParam (name = "surname") String surname, @RequestParam (name = "password") String password) {
+        UserDTO user=new UserDTO(name, surname, password);
+        if (userService.findBySurname(user.getSurname())) {
             return new ResponseEntity(HttpStatus.CONFLICT);
         }
         userService.addUser(user);

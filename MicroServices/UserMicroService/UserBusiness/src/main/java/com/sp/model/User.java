@@ -36,7 +36,7 @@ public class User {
         this.name = name;
         this.surname = surname;
         this.password = password;
-        this.money = 0;
+        this.money = 200;
     }
 
     @Override

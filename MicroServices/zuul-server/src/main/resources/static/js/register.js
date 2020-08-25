@@ -4,17 +4,16 @@ $(document).ready(function(){
     $("button").click(function(e) {
         e.preventDefault();
         var data = $("#register").serialize();
-        console.log(data);
         $.ajax({
-            url : 'localhost:8085/user-service/user/add',
+            url : '/user-service/user/add',
             type : 'POST',
-            data : data,
-            dataType : 'text',
+            data : {"name": $("#name").val(), "surname": $("#surname").val(), "password": $("#password").val()},
+            dataType : 'JSON',
 
         success : function(data, statut){
                 if(data == "true")
                 {
-                    $("p").text("Inscription OK");
+                    $("#check").text("Inscription OK");
                     window.location = "/login.html";
                 }
                 else
@@ -26,7 +25,8 @@ $(document).ready(function(){
 
          error : function(data, statut) {
              console.log(data);
-             $("#check").text("error try again");
+             console.log(statut);
+             $("#check").text("Une erreur est survenue, merci de recommencer");
 
          }
 
