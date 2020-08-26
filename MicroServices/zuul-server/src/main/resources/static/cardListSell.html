@@ -41,7 +41,7 @@
         <!------------------------------------------------------------------------->
         <!--    ----------------------------- List ----------------------------- -->
         <!------------------------------------------------------------------------->
-        <table class="ui selectable celled table">
+        <table class="ui selectable celled table" id="cardListId">
             <thead>
             <tr>
                 <th>Name</th>
@@ -55,7 +55,7 @@
                 <th></th>
             </tr>
             </thead>
-            <tbody id="cardListId">
+            <tbody>
 
             </tbody>
         </table>
@@ -70,7 +70,7 @@
                 <div class="card">
 
                     <div class="content">
-                        <img id="cardFamilyImgId" class="ui avatar image" src=""> <span id="cardFamilyNameId"> </span>
+                        <span id="cardFamilyNameId"> </span>
                     </div>
                     <div class="image imageCard">
                         <div class="blurring dimmable image">
@@ -107,7 +107,7 @@
                         <i class="protect icon"></i>
                         <span id="cardDefenceId"> </span>
                     </div>
-                    <div class="ui bottom attached button">
+                    <div class="ui bottom attached button" onclick='sell_item_from_selected(this)'>
                         <i class="money icon"></i>
                         Sell for <span id="cardPriceId"></span>
                     </div>

@@ -10,5 +10,5 @@ public interface InventoryCardRepository extends CrudRepository<InventoryCard, I
 
     List<InventoryCard> findAllByIdUser(int idUser);
 
-    Optional<Object> findById(int id);
+    InventoryCard findById(int id);
 }

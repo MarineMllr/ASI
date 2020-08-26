@@ -1,6 +1,7 @@
 package com.sp.controllers;
 
 import com.sp.dto.Login;
+import com.sp.dto.MoneyExchangeDTO;
 import com.sp.dto.UserDTO;
 import com.sp.model.User;
 import com.sp.services.UserService;
@@ -59,5 +60,25 @@ public class UserRestController {
         } else {
             return new ResponseEntity<>("L'utilisateur n'existe pas", HttpStatus.NOT_FOUND);
         }
+    }
+
+    @RequestMapping(value = "/user/money/add", method = RequestMethod.POST)
+    public ResponseEntity<?> addMoney(@RequestBody MoneyExchangeDTO echange) {
+        User user = userService.findById(echange.getIdUser());
+        if (user == null) {
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+        }
+        userService.addMoney(user, echange.getMoney());
+        return new ResponseEntity<String>(HttpStatus.OK);
+    }
+
+    @RequestMapping(value = "/user/money/remove", method = RequestMethod.POST)
+    public ResponseEntity<?> removeMoney(@RequestParam (name = "idUser") int idUser, @RequestParam (name = "money") int money) {
+        User user = userService.findById(idUser);
+        if (user == null) {
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+        }
+        userService.removeMoney(user, money);
+        return new ResponseEntity<String>(HttpStatus.OK);
     }
 }

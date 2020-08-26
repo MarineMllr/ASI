@@ -1,30 +1,39 @@
 //TODO : changer les url ajax : maintenant elle suivent la logique suivante => localhost:portMS/nomMS/nomduRequestMapping
 var user;
+var selected_card_id;
 $(document ).ready(function(){
 //     var value = getConnectionInfos();
 //     user = usr_infos;
-    user = {
-        "id":1,
-        "surname": 'user',
-        "name": "user",
-        "money":200
-    }
+    $.ajax({
+        url:"/user-service/user/1",
+        type: "GET",
+        async: false
+
+    }).done(function(user_received){
+        console.log(user_received)
+        user = user_received;
+    });
 
 
 
     // if (user != null && cookieObj != null) {
         console.log(user["surname"]);
+        $("#userNameId").text(user["surname"]);
+        $("#currentMoney").text(user["money"]);
         $.ajax({
-            url : 'sale-service/inventory/cards/',
-            type : 'GET',
-            data : {surname: user["surname"]},
-            success : function(list_to_display){
+            url: 'sale-service/inventory/cards',
+            type: 'GET',
+            data: {user: user["id"]}
+        })
+            .done(function(list_to_display) {
                 console.log(list_to_display);
                 $.each(list_to_display, function(key, inventCard) {
                     $.ajax({
-                        url: 'localhost:8081/card-service/card/'+inventCard["idCard"],
-                        type : 'GET',
-                        success : function(card) {
+                        url: 'card-service/card/' + inventCard["idCard"],
+                        type: 'GET'
+                    })
+                        .done(function(card) {
+                            console.log(card);
                             addCardToList(
                                 card["family"],
                                 card["imgUrl"],
@@ -36,22 +45,21 @@ $(document ).ready(function(){
                                 card["defence"],
                                 card["price"],
                                 card["id"],
-                                inventCard["idCard"]
+                                inventCard["id"]
                             )
-                        }
+                        })
+                        .fail(function (data, textStatus, errorThrown) {
+                            console.log("laaabis");
+                            console.log(textStatus);
+                        });
                     })
-                });
-            },
+                })
+            .fail(function (data, textStatus, errorThrown) {
+                console.log("laaa");
+                console.log(textStatus);
+            })
 
-            error : function(resultat, statut, erreur){
 
-            },
-
-            complete : function(resultat, statut){
-
-            }
-
-        });
     // }
 });
 
@@ -69,7 +77,7 @@ function fillCurrentCard(imgUrlFamily,familyName,imgUrl,name,description,hp,ener
 };
 
 
-function addCardToList(familyName,imgUrl,name,description,hp,energy,attack,defence,price,id){
+function addCardToList(familyName,imgUrl,name,description,hp,energy,attack,defence,price,id, idInventory){
 
     content="\
     <td> \
@@ -83,7 +91,7 @@ function addCardToList(familyName,imgUrl,name,description,hp,energy,attack,defen
     <td>"+defence+"</td> \
     <td>"+price+"$</td>\
     <td>\
-        <div class='ui vertical animated button' id='item_"+id+"' tabindex='0' onclick='sell_item(this)'>\
+        <div class='ui vertical animated button' id='item_"+idInventory+"' tabindex='0' onclick='sell_item(this, "+price+")'>\
             <div class='hidden content'>Sell</div>\
     <div class='visible content'>\
         <i class='shop icon'></i>\
@@ -111,6 +119,7 @@ function selectElementCardList(x){
     var attack = td[6].textContent;
     var price = td[7].textContent;
     var name = td[0].getElementsByTagName("span")[0].textContent;
+    var imgUrl = td[0].getElementsByTagName("img")[0].src;
     document.getElementById("cardNameId").innerHTML = name;
     document.getElementById("cardDescriptionId").innerHTML = description;
     document.getElementById("cardFamilyNameId").innerHTML = family;
@@ -119,34 +128,46 @@ function selectElementCardList(x){
     document.getElementById("cardDefenceId").innerHTML = defence;
     document.getElementById("cardAttackId").innerHTML = attack;
     document.getElementById("cardPriceId").innerHTML = price;
+    document.getElementById('cardImgId').src = imgUrl;
+    selected_card_id = td[8].getElementsByTagName("div")[0].id;
 }
 
-function sell_item(x){
+function sell_item(x, price){
     var item_id = x.id;
     item_id = item_id.replace("item_","");
     console.log(item_id);
+    console.log(price)
 
     $.ajax({
-        url : 'localhost:8082/sale-service/card/sell',
-        type : 'POST',
-        data : {surname: user["surname"], token : cookieObj["token"], item_id : item_id},
-        success : function(data){
-            console.log(data);
-            if (data==true){
-                alert("Vous venez de vendre cette carte");
-            } else {
-                alert("Erreur lors de la vente de la carte");
+        url: 'sale-service/card/sell',
+        type: 'POST',
+        data: {id: item_id, price: parseInt(price)}
+    })
+        .done(
+            function(data){
+                console.log(data);
+                location.reload();
             }
-            location.reload();
-        },
+        )
+        .fail()
 
-        error : function(resultat, statut, erreur){
 
-        },
+}
 
-        complete : function(resultat, statut){
+function sell_item_from_selected(x) {
+    var item_id = selected_card_id;
+    item_id = item_id.replace("item_","");
+    var price = $("#cardPriceId").text();
 
-        }
-
-    });
+    $.ajax({
+        url: 'sale-service/card/sell',
+        type: 'POST',
+        data: {id: item_id, price: parseInt(price)}
+    })
+        .done(
+            function(data){
+                location.reload();
+            }
+        )
+        .fail()
 }

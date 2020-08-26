@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class InventoryCardService {
@@ -21,13 +22,23 @@ public class InventoryCardService {
         return createdCard;
     }
 
-    public void removeInventoryCard(InventoryCard inventoryCard) {
-        inventoryCardRepository.delete(inventoryCard);
+    public void removeInventoryCard(int id) {
+        inventoryCardRepository.delete(inventoryCardRepository.findById(id));
     }
 
     public List<InventoryCard> getAllInventoryCardByUser(int idUser){ return inventoryCardRepository.findAllByIdUser(idUser);}
 
     public boolean inventoryCardExists(InventoryCard inventoryCard) {
-        return inventoryCardRepository.findById(inventoryCard.getId()).isPresent();
+        return inventoryCardRepository.findById(inventoryCard.getId())!= null;
     }
+
+    public boolean inventoryCardExistsById(int id) {
+        return inventoryCardRepository.findById(id) != null;
+    }
+
+    public InventoryCard findById(int id){
+        return inventoryCardRepository.findById(id);
+    }
+
+
 }

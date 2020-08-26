@@ -46,4 +46,14 @@ public class UserService {
     public boolean findBySurname(String surname) {
         return !userRepository.findBySurname(surname).isEmpty();
     }
+
+    public void addMoney(User user, int money) {
+        user.setMoney(user.getMoney() + money);
+        userRepository.save(user);
+    }
+
+    public void removeMoney(User user, int money) {
+        user.setMoney(user.getMoney() - money);
+        userRepository.save(user);
+    }
 }
